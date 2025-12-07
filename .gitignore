@@ -64,3 +64,28 @@ cmake-build-debug/
 local.properties
 .log
 .exe
+# --- Ajouts perso Whisper Studio Deluxe ---
+
+# Ton venv réel (dossier "venv" et non ".venv")
+venv/
+
+# Dossier de sorties
+outputs/
+
+# Modèles Whisper lourds (GGML / GGUF / binaires)
+models/*.bin
+models/*.ggml
+models/*.gguf
+
+# Audio / vidéo traités localement
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.mp4
+*.mkv
+*.avi
+
+# Logs perso
+whisper-deluxe.log
+*.log
